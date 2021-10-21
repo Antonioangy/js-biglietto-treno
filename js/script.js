@@ -19,10 +19,12 @@ const scontoanziani = prezzototale * 40/100;
 if (eta < 18) (
 
     let prezzoscontatominorenni = prezzototale - scontominorenni
+    document.getElementById('prezzoviaggio').innerHTML = prezzoscontatominorenni;
 )
 
 // calcolo prezzo totale scontato per gli over 65
-if (eta > 65) (
+else if (eta > 65) (
 
     let prezzoscontatoanziani = prezzototale - scontoanziani
+    document.getElementById('prezzoviaggio').innerHTML = prezzoscontatoanziani;
 )
