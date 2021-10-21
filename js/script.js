@@ -16,9 +16,13 @@ const scontominorenni = prezzototale * 20/100;
 const scontoanziani = prezzototale * 40/100;
 
 // calcolo prezzo totale scontato minorenni
+if (eta < 18) (
 
-let prezzoscontatominorenni = prezzototale - scontominorenni
+    let prezzoscontatominorenni = prezzototale - scontominorenni
+)
 
 // calcolo prezzo totale scontato per gli over 65
+if (eta > 65) (
 
-let prezzoscontatoanziani = prezzototale - scontoanziani
+    let prezzoscontatoanziani = prezzototale - scontoanziani
+)
