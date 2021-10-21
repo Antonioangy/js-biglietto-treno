@@ -11,4 +11,14 @@ const prezzoalkm = 0.21;
 // prezzo a km x km da percorrere 
 let prezzototale = numerokm * prezzoalkm; 
 // va applicato uno sconto del 20% per i minorenni
+const scontominorenni = prezzototale * 20/100;
 // va applicato uno sconto del 40% per gli over 65.
+const scontoanziani = prezzototale * 40/100;
+
+// calcolo prezzo totale scontato minorenni
+
+let prezzoscontatominorenni = prezzototale - scontominorenni
+
+// calcolo prezzo totale scontato per gli over 65
+
+let prezzoscontatoanziani = prezzototale - scontoanziani
